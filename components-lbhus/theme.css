@@ -1,0 +1,174 @@
+:root{ 
+  /* global variables trouhgout all the components */
+  --global-font-size: 15px;
+  --global-line-height: 1.3em;
+  --global-font-family: 'Lato','Helvetica Neue',sans-serif;
+  --global-font-weight: 300;
+  --global-font-style: normal;
+  --global-text-color: black;
+  --global-bg-color: #ffffff;
+}
+
+/* configured to give this properties the webiste-lb theme style */
+body{
+  font-size: var(--global-font-size);
+  line-height: var(--global-line-height);
+  font-family: var(--global-font-family);
+  font-weight: var(--global-font-weight);
+  background-color: var(--global-bg-color);
+  font-style: var(--global-font-style);
+  color: var(--global-text-color);
+}
+/* 
+  Grid layout 
+*/
+.grid-webiste-template-lb {
+  --grid-webiste-template-lb-gap:20px;
+  --grid-webiste-template-lb-max-width:976px;
+}
+.portfolio-item__big1{
+  margin-bottom: 30px;
+}
+
+/* 
+  Container for the navbar 
+*/
+.nav-flex-holder{
+  --nav-holder-padding:15px 0 20px 0;
+  --nav-holder-padding-items:0 0;
+  --nav-holder-border-bottom: black 1px solid;
+  --nav-holder-margin: 0 0 10px 0;
+  --nav-holder-logo-img-width:120px;
+  --nav-holder-logo-img-height:74px;
+}
+
+/* 
+  Nav item
+*/
+.nav-item{
+  --nav-item-width: 45px;
+  --nav-item-height: 48px;
+  --nav-item-title-margin: 5px;
+  letter-spacing: 1.4px;
+}
+
+/* 
+  The buttons
+*/
+.cta-button{
+  --cta-button-padding: 10px 20px;
+  --cta-button-margin: 10px 0 0 0;
+  --cta-button-width: fit-content;
+  --cta-button-bg-clr: #929292;
+  --cta-button-txt-clr: #ffffff;
+}
+.cta-button a{
+  --cta-button-margin: 10px 0 0 0;
+}
+
+/* 
+Content concering the text for all kinds of 
+differnt text components 
+*/
+.text-content{
+  --_dev-text-content-bg-clr: #ffffff;
+  --_dev-text-content-txt-clr: black;
+}
+/* 
+  This concerns the the list 
+*/
+.list-elements{
+  --list-elements-text-padding: 0 0 0 15px ;
+  --list-elements-text-margin: 0 0 0 -15px ;
+}
+.list-elements a{
+  margin: var(--list-elements-text-padding);
+}
+.list-elements p{
+  margin: var(--list-elements-text-margin);
+}
+
+/* 
+  This concerns the side content
+*/
+.slider{
+  --slider-width:200px;
+  --slider-height:200px;
+  --slider-max-width:996px;
+  --slider-gap:10px;
+}
+
+/* 
+  This concerns the footer
+*/
+.lb-footer{
+  --lb-footer-bg-clr: #ededed;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  margin-left: -18px;
+}
+.icons img {
+  width: 57px;
+  height: 57px;
+}
+.icons div {
+  margin: 0 6px;
+}
+.lb-footer a {
+  text-decoration: none;
+  color:#868686;
+}
+.lb-footer p {
+  color:#868686;
+}
+.images img{
+  margin-bottom: 10px;
+}
+
+/* 
+  Modifiers 
+*/
+.justify-content-direction-to-center {
+  --text-content-align-items: center;
+  --text-content-justify-content: center;
+  --text-content-text-align: center;
+}
+.bold{
+  font-weight: 600;
+}
+.button{
+  padding: var(--_button-padding);
+}
+.link a{
+  text-decoration: var(--list-elements-text-decoration);
+  color: var(--global-text-color);
+  padding: var(--_text-padding);
+  margin: var(--_text-margin);
+}
+.text-content-overlay{
+  --text-content-txt-clr: #222222;
+  --text-content-bg-clr: #ededed;
+  --text-content-font-size-text: 15px;
+  --text-content-text-align: center;
+  --text-content-padding: 0 15px;
+} 
+.mTitle, .content, .images{
+  --text-content-align-items: center;
+  --text-content-justify-content: center;
+  --text-content-text-align: center;
+  --text-content-bg-clr: #ededed;
+}
+.mTitle{
+  --text-content-border-bottom: black 1px solid;  
+  --text-content-margin: 0 10px 20px 10px;
+}
+.content{
+  --text-content-padding: 15px; 
+}
+.spanLink{
+  text-decoration: none;
+  color:var(--global-text-color);
+  font-weight: bold;
+}

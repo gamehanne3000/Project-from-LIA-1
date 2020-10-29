@@ -1,0 +1,23 @@
+
+.grid-webiste-template-lb { 
+  --_bg-clr:                var(--grid-webiste-template-lb-bg-clr,     --global-bg-clr);
+  --_max-width:             var(--grid-webiste-template-lb-max-width,  100%);
+  --_gap:                   var(--grid-webiste-template-lb-gap,        0px); 
+}
+
+.grid-webiste-template-lb {
+  margin: auto;
+  max-width: var(--_max-width);
+}
+
+.portfolio{
+  display: grid;
+  gap: var(--_gap);
+  grid-template-columns: repeat(2, 1fr);
+  
+  .portfolio-item{
+    &__big{
+      grid-column: span 2 / auto;
+    }
+  }
+}

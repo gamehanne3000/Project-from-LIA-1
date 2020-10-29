@@ -1,0 +1,36 @@
+
+{
+  "meta": {
+    "title": "image",
+    "description": "image description","template": "image.twig",
+    "styles": "image.scss"
+  },
+  "properties": [
+    {
+      "name": "modifiers",
+      "type": "string",
+      "description": "add your own class",
+      "example": ""
+    },
+    {
+      "name": "URL",
+      "type": "html",
+      "description": "This is an image placeholder",
+      "example": "<img src='https://i.imgur.com/4DN0GUJ.png' alt='this is not supposed to be a picture :D'></img>"
+    }
+  ],
+  "cssProperties": [
+    {
+      "name": "--imageHolder-bg-clr",
+      "description": "CSS background color"
+    },
+    {
+      "name": "--imageHolder-width",
+      "description": "CSS width of the image, default is for responsivness"
+    },
+    {
+      "name": "--imageHolder-height",
+      "description": "CSS height of the image, default is for responsivness"
+    }
+  ]
+}

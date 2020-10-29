@@ -1,0 +1,31 @@
+.list-elements {
+  --_txt-clr:           var(--list-elements-txt-clr,           --global-text-color);
+  --_font-size-text:    var(--list-elements-font-size-text,    --global-font-size);
+  --_font-family:       var(--list-elements-font-family,       --global-font-family);
+  --_line-height:       var(--list-elements-line-height,       --global-line-height);
+  --_font-weight:       var(--list-elements-font-weight,       --global-font-weight);
+  --_font-style:        var(--list-elements-font-style,        --global-font-style);
+  --_text-decoration:   var(--list-elements-text-decoration,   none);
+  --_text-padding:      var(--list-elements-text-padding,      0px);
+  --_list-text-margin:  var(--list-elements-text-margin,       0px);
+}
+.list-elements {
+  text-decoration: var(--_text-decoration);
+  padding: var(--_text-padding);
+  margin: var(--_text-margin);
+  
+  // exists for overriding the global properties, default is this global variants
+  font-size: var(--_font-size-text);
+  font-family: var(--_font-family);
+  line-height: var(--_line-height);
+  font-weight: var(--_font-weight);
+  font-style: var(--_font-style);
+  color: var(--_txt-clr);
+  
+  & ul{
+    padding: 0;
+  }
+  & ol{
+    padding: 0;
+  }
+}

@@ -1,0 +1,12 @@
+
+    .imageHolder {
+      --_imageHolder-bg-clr:  var(--imageHolder-bg-clr,   --global-bg-clr);
+      --_imageHolder-width:   var(--imageHolder-width,    100%);
+      --_imageHolder-height:  var(--imageHolder-height,   auto);
+    }
+    .imageHolder {
+      background: var(--_bg-clr);
+      width: var(--_imageHolder-width);
+      height: var(--_imageHolder-height);
+    }
+    

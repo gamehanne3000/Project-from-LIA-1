@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "list-elements",
+    "description": "list-elements description",
+    "template": "list-elements.twig",
+    "styles": "list-elements.scss"
+  },
+  "properties": [
+    {
+      "name": "modifiers",
+      "type": "string",
+      "description": "Classes to modify the component",
+      "example": ""
+    },
+    {
+      "name": "ul",
+      "type": "html",
+      "description": "put in a list element that are wrapped around an unordered HTML list",
+      "example": "<li> unordered list element </li>"
+    },
+    {
+      "name": "ol",
+      "type": "html",
+      "description": "put in a list element that are wrapped around an ordered HTML list",
+      "example": "<li> ordered list element </li>"
+    }
+  ],
+  "cssProperties": [
+    {
+      "name": "--list-elements-txt-clr",
+      "description": "override the global text color"
+    },
+    {
+      "name": "--list-elements-font-size-text",
+      "description": "override the global font-size text"
+    },
+    {
+      "name": "--list-elements-font-family",
+      "description": "override the global font family"
+    },
+    {
+      "name": "--list-elements-line-height",
+      "description": "override the global line height"
+    },
+    {
+      "name": "--list-elements-font-weight",
+      "description": "override the global font weight"
+    },
+    {
+      "name": "--list-elements-font-style",
+      "description": "override the global font style"
+    },
+    {
+      "name": "--list-elements-text-align",
+      "description": "text-align"
+    },
+    {
+      "name": "--list-elements-text-decoration",
+      "description": "text-decoration"
+    },
+    {
+      "name": "--list-elements-text-padding",
+      "description": "text-padding"
+    },
+    {
+      "name": "--list-elements-text-margin",
+      "description": "text-margin"
+    }
+  ]
+}

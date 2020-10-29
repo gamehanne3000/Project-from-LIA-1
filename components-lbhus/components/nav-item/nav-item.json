@@ -1,0 +1,78 @@
+
+{
+  "meta": {
+    "title": "nav-item",
+    "description": "nav-item description","template": "nav-item.twig",
+    "styles": "nav-item.scss"
+  },
+  "properties": [
+    {
+      "name": "modifiers",
+      "type": "html",
+      "description": "add your own class",
+      "example": ""
+    },
+    {
+      "name": "icon",
+      "type": "html",
+      "description": "icon",
+      "example": ""
+    },
+    {
+      "name": "href",
+      "type": "html",
+      "description": "content",
+      "example": "#"
+    },
+    {
+      "name": "value",
+      "type": "html",
+      "description": "content",
+      "example": ""
+    },
+    {
+      "name": "title",
+      "type": "html",
+      "description": "content",
+      "example": ""
+    }
+  ],
+  "cssProperties": [
+    {
+      "name": "--nav-item-bg-clr",
+      "description": "override the global bg clr"
+    },
+    {
+      "name": "--nav-item-txt-clr",
+      "description": "override the global txt clr"
+    },
+    {
+      "name": "--nav-item-font-size",
+      "description": "override the global font size clr"
+    },
+    {
+      "name": "--nav-item-font-weight",
+      "description": "override the global font weight clr"
+    },
+    {
+      "name": "--nav-item-width",
+      "description": "width of the nav item"
+    },
+    {
+      "name": "--nav-item-height",
+      "description": "Height of the nav item"
+    },
+    {
+      "name": "--nav-item-title-margin",
+      "description": "marigin between the nav items vertikal"
+    },
+    {
+      "name": "--nav-item-icon-margin",
+      "description": "margin between the nav icon and the text underneith"
+    },
+    {
+      "name": "--nav-item-flex-direction",
+      "description": "which direction do you want the icon and the title to be in (vertical or horizontal)"
+    }
+  ]
+}

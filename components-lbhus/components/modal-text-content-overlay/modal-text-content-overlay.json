@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "modal-text-content-overlay",
+    "description": "modal-text-content-overlay description",
+    "template": "modal-text-content-overlay.twig",
+    "styles": "modal-text-content-overlay.scss"
+  },
+  "properties": [
+    {
+      "name": "parent",
+      "type": "html",
+      "description": "parent",
+      "example": ""
+    },
+    {
+      "name": "textContent",
+      "type": "html",
+      "description": "textContentOverlay",
+      "example": "Jag heter sune och läser denna texten just nu"
+    },
+    {
+      "name": "button",
+      "type": "html",
+      "description": "button",
+      "example": "button"
+    }
+  ],
+  "cssProperties": [
+    {
+      "name": "--modal-text-content-overlay-bg-clr",
+      "description": "CSS bg Color"
+    },
+    {
+      "name": "--modal-text-content-overlay-margin",
+      "description": "CSS margin"
+    }
+  ]
+}

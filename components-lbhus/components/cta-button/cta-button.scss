@@ -1,0 +1,23 @@
+
+.cta-button {
+  --_txt-clr:     var(--cta-button-txt-clr,      --global-text-color);
+  --_bg-clr:      var(--cta-button-bg-clr,       --global-bg-color);
+  --_padding:     var(--cta-button-padding,      0);
+  --_margin:      var(--cta-button-margin,       0);
+  --_width:       var(--cta-button-width,        100%);
+  --_text-align:  var(--cta-button-text-align,   center);
+}
+.cta-button {
+  background-color: var(--_bg-clr);
+  padding: var(--_padding);
+  margin: var(--_margin);
+  width: var(--_width);
+  cursor: pointer;
+  display: block;
+  text-align: var(--_text-align);
+}
+
+.cta-button a{
+  color: var(--_txt-clr);
+  text-decoration: none;
+}

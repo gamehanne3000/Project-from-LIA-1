@@ -1,0 +1,43 @@
+/* 
+  This is now hard coded with default values but could easily be replaced 
+  by the positioning variables in the text content 
+*/
+.parent {
+  --_bg-clr:  var(--parent-bg-clr, var(--primary-bg-clr, #ededed));
+  --_margin:  var(--modal-text-content-overlay-margin,   0px);
+}
+// Parent colud be an image
+.parent {
+  background-color: var(--_bg-clr);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: var(--_margin);
+}
+.parent > img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+// the child is the overlay that will occur in front of the image for example
+.child{
+  display: flex;
+  position: absolute;
+  top: 81%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--_bg-clr);
+  flex-direction: column;
+  padding: 15px;
+  
+  &__text{
+    margin: auto;
+
+  }
+  &__button{
+    margin: 0 auto 0 auto;
+    padding: 0 15px 15px 15px;
+  }
+}

@@ -1,0 +1,67 @@
+.text-content {
+  // variable           // uniqe                                // theme of the website                    // default
+  --_bg-clr:            var(--text-content-bg-clr,              --global-bg-color);
+  --_txt-clr:           var(--text-content-txt-clr,             --global-text-color);
+  --_font-size-text:    var(--text-content-font-size-text,      --global-font-size);
+  --_font-family:       var(--text-content-font-family,         --global-font-family);
+  --_line-height:       var(--text-content-line-height,         --global-line-height);
+  --_font-weight:       var(--text-content-font-weight,         --global-font-weight);
+  --_font-style:        var(--text-content-font-style,          --global-font-style);
+  --_text-align:        var(--text-content-text-align,          left);
+  
+  // spacing of the elements
+  --_padding:           var(--text-content-padding,             0px);
+  --_margin:            var(--text-content-margin,              0px);
+  
+  // Change your background
+  --_bg-position:             var(--text-content-bg-bg-position,          relative);
+  --_bg-pos-top:              var(--text-content-bg-top,                  0);
+  --_bg-pos-bottom:           var(--text-content-bg-bottom,               0);
+  --_bg-pos-left:             var(--text-content-bg-pos-left,             0);
+  --_bg-pos-right:            var(--text-content-bg-pos-right,            0);
+  --_bg-z-index:              var(--text-content-bg-z-index,              -1);
+  --_bg-object-fit:           var(--text-content-bg-object-fit,           cover);
+  --_bg-with-content-width:   var(--text-content-bg-with-content-width,   100%);
+  --_bg-with-content-height:  var(--text-content-bg-with-content-height,  100%);
+  --_border-bottom:           var(--text-content-border-bottom,           none);
+  
+  // Remember that justify-content reads trough the axis of the "flex-direction" 
+  --_justify-content:   var(--text-content-justify-content,    flex-start);
+  --_flex-direction:    var(--text-content-flex-direction,     column);
+  --_align-items:       var(--text-content-align-items,        flex-start);
+}
+.text-content {
+  display: flex;
+  color: var(--_txt-clr);
+  flex-direction: var(--_flex-direction);
+  justify-content: var(--_justify-content);
+  align-items: var(--_align-items);
+  padding: var(--_padding); 
+  font-family: var(--_font-family);
+  background: var(--_bg-clr);
+  text-align: var(--_text-align);
+  margin: var(--_margin);
+  border-bottom: var(--_border-bottom);
+
+  /* background with a tought of image and video */
+  &__bg {
+    background-color: var(--_bg-clr);
+    position: var(--_bg-position);
+    top: var(--_bg-pos-top); 
+    bottom: var(--_bg-pos-bottom); 
+    left: var(--_bg-pos-left); 
+    right: var(--_bg-pos-right);
+    z-index: var(--_bg-z-index);
+    img, video {
+      object-fit: var(--_bg-object-fit);
+      width: var(--_bg-with-content-width);
+      height: var(--_bg-with-content-height);
+    }
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+
+{
+  "meta": {
+    "title": "grid-sections",
+    "description": "grid-sections description","template": "grid-sections.twig",
+    "styles": "grid-sections.scss"
+  },
+  "properties": [
+    {
+      "name": "image",
+      "type": "html",
+      "description": "image",
+      "example": ""
+    },
+    {
+      "name": "contents",
+      "type": "html",
+      "description": "diverse content",
+      "example": ""
+    }
+  ],
+  "cssProperties": [
+    {
+      "name": "--grid-sections-bg-clr",
+      "description": "Background color"
+    },{
+      "name": "--grid-sections-txt-clr",
+      "description": "Text color"
+    },{
+      "name": "--grid-sections-flex-direction",
+      "description": "Which direction is the content going to be in (block or inline)?"
+    }
+  ]
+}

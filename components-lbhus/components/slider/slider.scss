@@ -1,0 +1,27 @@
+.slider {
+  --_bg-clr:            var(--slider-bg-clr,       --global-bg-color);
+  --_slider-width:      var(--slider-width,        100%);
+  --_slider-height:     var(--slider-height,       100%);
+  --_slider-max-width:  var(--slider-max-width,    100%);
+  --_slider-gap:        var(--slider-gap,          10px);
+}
+.slider {
+  background-color: var(--_bg-clr);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  max-width: var(--_slider-max-width);
+  grid-gap: var(--_slider-gap);
+  
+  & img{
+    height: var(--_slider-height);
+    width: var(--_slider-width);
+  }
+}
+
+.left-arrow{
+  justify-self: end;
+}
+
+.arrow{
+  align-self: center;
+}

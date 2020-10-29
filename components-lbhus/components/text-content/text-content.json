@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "text-content",
+    "description": "text-content description",
+    "template": "text-content.twig",
+    "styles": "text-content.scss"
+  },
+  "properties": [
+    {
+      "name": "modifiers",
+      "type": "string",
+      "description": "Classes to modify the component",
+      "example": ""
+    },
+    {
+      "name": "textContents",
+      "type": "html",
+      "description": "content",
+      "example": "Hi i am a title"
+    },
+    {
+      "name": "bg",
+      "type": "html",
+      "description": "bg",
+      "example": ""
+    }
+  ],
+  "cssProperties": [
+    {
+      "name": "--text-content-txt-clr",
+      "description": "CSS Text Color"
+    },
+    {
+      "name": "--text-content-bg-clr",
+      "description": "CSS bg Color"
+    },
+    {
+      "name": "--text-content-font-size-text",
+      "description": "CSS font size"
+    },
+    {
+      "name": "--text-content-font-family",
+      "description": "CSS font family"
+    },
+    {
+      "name": "--text-content-line-height",
+      "description": "CSS line height"
+    },
+    {
+      "name": "--text-content-font-weight",
+      "description": "CSS font weight"
+    },
+    {
+      "name": "--text-content-font-style",
+      "description": "CSS font style"
+    },
+    {
+      "name": "--text-content-padding",
+      "description": "CSS padding around the content"
+    },
+    {
+      "name": "--text-content-justify-content",
+      "description": "CSS property for justify the content"
+    },
+    {
+      "name": "--text-content-align-items",
+      "description": "CSS property for aligning the content"
+    },
+    {
+      "name": "--text-content-text-decoration",
+      "description": "CSS property for removing the text decoration"
+    },
+    {
+      "name": "--text-content-margin",
+      "description": "CSS property margin of the block"
+    },
+    {
+      "name": "--text-content-border-bottom",
+      "description": "CSS border bottom"
+    }
+  ]
+}

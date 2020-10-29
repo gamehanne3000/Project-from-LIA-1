@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "title": "slider",
+    "description": "slider description",
+    "template": "slider.twig",
+    "styles": "slider.scss"
+  },
+  "properties": [
+    {
+      "name": "modifiers",
+      "type": "string",
+      "description": "Classes to modify the component",
+      "example": ""
+    },
+    {
+      "name": "images",
+      "type": "html",
+      "description": "HTML to put inside the component",
+      "example": ""
+    }
+  ],
+  "cssProperties": [
+    {
+      "name": "--slider--color--background",
+      "description": "Background Color"
+    },
+    {
+      "name": "--slider-width",
+      "description": "width of the wrapper"
+    },
+    {
+      "name": "--slider-height",
+      "description": "height of the wrapper"
+    },
+    {
+      "name": "--slider-max-width",
+      "description": "choose a max width"
+    },
+    {
+      "name": "--slider-gap",
+      "description": "gap between items"
+    }
+  ]
+}

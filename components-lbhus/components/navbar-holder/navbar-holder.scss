@@ -1,0 +1,40 @@
+
+.nav-flex-holder {
+  --_nav-holder-bg-clr:               var(--nav-holder-bg-clr,               --global-bg-color);
+  --_nav-holder-padding:              var(--nav-holder-padding,              0px);
+  --_nav-holder-padding-items:        var(--nav-holder-padding-items,        1px 1px);
+  --_nav-holder-max-width:            var(--nav-holder-max-width,            100%);
+  --_nav-holder-logo-img-width:       var(--nav-holder-logo-img-width,       0);
+  --_nav-holder-logo-img-height:      var(--nav-holder-logo-img-height,      0);
+  --_nav-holder-logo-other-width:     var(--nav-holder-logo-other-width,     0);
+  --_nav-holder-logo-other-height:    var(--nav-holder-logo-other-height,    0);
+  --_nav-holder-border-bottom:        var(--nav-holder-border-bottom,        none);
+  --_nav-holder-margin:               var(--nav-holder-margin,               0px);
+
+}
+.nav-flex-holder {
+  background-color: var(--_nav--holder-bg-clr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--_nav-holder-padding);
+  max-width: var(--_nav-holder-max-width);
+  border-bottom: var(--_nav-holder-border-bottom);
+  margin: var(--_nav-holder-margin);
+  
+  &__item {
+    display: flex;
+    padding: var(--_nav-holder-padding-items);
+  }
+  
+  &__logo {
+    width: var(--_nav-holder-logo-other-width);
+    
+    // If the logo is an img follow these variables otherwise follow the variables without the psuedo class abow
+      img {
+      width: var(--_nav-holder-logo-img-width);
+      height: var(--_nav-holder-logo-img-height);
+    }
+  }
+}
+

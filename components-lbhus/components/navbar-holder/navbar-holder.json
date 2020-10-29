@@ -1,0 +1,77 @@
+
+{
+  "meta": {
+    "title": "navbar-holder",
+    "description": "navbar-holder description","template": "navbar-holder.twig",
+    "styles": "navbar-holder.scss"
+  },
+  "properties": [
+    {
+      "name": "logo",
+      "type": "html",
+      "description": "logo",
+      "example": "logo"
+    },
+    {
+      "name": "href",
+      "type": "string",
+      "description": "almost in all cases do we use a callback. As so, this is why its in here",
+      "example": ""
+    },
+    {
+      "name": "value",
+      "type": "string",
+      "description": "The value which combines with the href tag, for example (href='#' value='I am a title') ",
+      "example": ""
+    },
+    {
+      "name": "items",
+      "type": "html",
+      "description": "it could look like = <li><a href='#'> something </a></li>",
+      "example": "item"
+    }
+  ],
+  "cssProperties": [
+    
+    {
+      "name": "--nav-holder-bg-clr",
+      "description": "override the global bg clr"
+    },
+    {
+      "name": "--nav-holder-padding",
+      "description": ""
+    },
+    {
+      "name": "--nav-holder-padding-items",
+      "description": ""
+    },
+    {
+      "name": "--nav-holder-max-width",
+      "description": ""
+    },
+    {
+      "name": "--nav-holder-logo-img-width",
+      "description": ""
+    },
+    {
+      "name": "--nav-holder-logo-img-height",
+      "description": ""
+    },
+    {
+      "name": "--nav-holder-logo-other-width",
+      "description": ""
+    },
+    {
+      "name": "--nav-holder-logo-other-height",
+      "description": ""
+    },
+    {
+      "name": "--nav-holder-border-bottom",
+      "description": ""
+    },
+    {
+      "name": "--nav-holder-margin",
+      "description": ""
+    }
+  ]
+}

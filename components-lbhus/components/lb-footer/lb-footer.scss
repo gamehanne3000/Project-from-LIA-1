@@ -1,0 +1,18 @@
+.lb-footer {
+  --_lb-footer-bg-clr:     var(--lb-footer-bg-clr,     --global-bg-color);
+  --_lb-footer-padding:    var(--lb-footer-padding,    5px);
+  --_lb-footer-width:      var(--lb-footer-width,      300px);
+  --_lb-footer-height:     var(--lb-footer-height,     400px);
+}
+.lb-footer {
+  background-color: var(--_lb-footer-bg-clr);
+  padding: var(--_lb-footer-padding);
+  display: flex;
+
+  // Sidenote this is not the optimal place to put width and height, perhaps seperate for each section
+  &__left, &__middle, &__right{
+    background-color: var(--_lb-footer-bg-clr);
+    width: var(--_lb-footer-width);
+    height: var(--_lb-footer-height);
+  }
+}

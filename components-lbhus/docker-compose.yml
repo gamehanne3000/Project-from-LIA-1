@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  storybook:
+    environment:
+      STORYBOOK_PORT: 6007
+      #STORYBOOK_PROJECT_THEME_STYLES: theme.css
+    image: registry.udev.se/internal/kubes/general/storybook:css
+    volumes:
+      - .:/app/project
+    ports:
+      - 6007:6007

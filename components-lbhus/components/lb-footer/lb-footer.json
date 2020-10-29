@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "lb-footer",
+    "description": "lb-footer description",
+    "template": "lb-footer.twig",
+    "styles": "lb-footer.scss"
+  },
+  "properties": [
+    {
+      "name": "modifiers",
+      "type": "string",
+      "description": "Classes to modify the component",
+      "example": ""
+    },
+    {
+      "name": "contents",
+      "type": "html",
+      "description": "HTML to put inside the component",
+      "example": ""
+    },
+    {
+      "name": "leftFooter",
+      "type": "html",
+      "description": "left section of the footer",
+      "example": "i am in the left footer"
+    },
+    {
+      "name": "middleFooter",
+      "type": "html",
+      "description": "middle section of the footer",
+      "example": "i am in the middle footer"
+    },
+    {
+      "name": "rightFooter",
+      "type": "html",
+      "description": "right section of the footer",
+      "example": "i am in the right footer"
+    }
+  ],
+  "cssProperties": [
+    {
+      "name": "--lb-footer-bg-clr",
+      "description": "Background Color"
+    },
+    {
+      "name": "--lb-footer-padding",
+      "description": "padding"
+    },
+    {
+      "name": "--lb-footer-width",
+      "description": "width of the footer"
+    },
+    {
+      "name": "--lb-footer-height",
+      "description": "height of the footer"
+    }
+  ]
+}

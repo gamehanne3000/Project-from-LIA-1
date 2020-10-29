@@ -1,0 +1,84 @@
+
+{
+  "meta": {
+    "title": "grid-webiste-template-lb",
+    "description": "grid-webiste-template-lb description","template": "grid-webiste-template-lb.twig",
+    "styles": "grid-webiste-template-lb.scss"
+  },
+  "properties": [
+    {
+      "name": "navbar",
+      "type": "html",
+      "description": "navbar placeholder",
+      "example": "navbar"
+    },
+    {
+      "name": "port1",
+      "type": "html",
+      "description": "port1",
+      "example": "port1"
+    },
+    {
+      "name": "textSlide",
+      "type": "html",
+      "description": "",
+      "example": "<img src='https://i.imgur.com/4DN0GUJ.png' alt='this is not supposed to be a picture :D'></img>"
+    },
+    {
+      "name": "port2",
+      "type": "html",
+      "description": "port2",
+      "example": "port2"
+    },
+    {
+      "name": "port3",
+      "type": "html",
+      "description": "port3",
+      "example": "port3"
+    },
+    {
+      "name": "port4",
+      "type": "html",
+      "description": "port4",
+      "example": "port4"
+    },
+    {
+      "name": "port5",
+      "type": "html",
+      "description": "port5",
+      "example": "port5"
+    },
+    {
+      "name": "port6",
+      "type": "html",
+      "description": "port6",
+      "example": "port6"
+    },
+    {
+      "name": "sideContent",
+      "type": "html",
+      "description": "",
+      "example": "sideContent"
+    },
+    {
+      "name": "footer",
+      "type": "html",
+      "description": "",
+      "example": "footer"
+    }
+  ],
+  "cssProperties": [
+    {
+      "name": "--grid-webiste-template-lb-bg-clr",
+      "description": "CSS background Color"
+    },
+    {
+      "name": "--grid-webiste-template-lb-max-width",
+      "description": "CSS max width"
+    },
+    {
+      "name": "--grid-webiste-template-lb-gap",
+      "description": "CSS grid-gap"
+    }
+  ]
+}

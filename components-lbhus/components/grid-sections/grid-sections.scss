@@ -1,0 +1,19 @@
+.grid-sections {
+  --_grid-sections-bg-clr:          var(--grid-sections-bg-clr,          --global-bg-color);
+  --_grid-sections-txt-clr:         var(--grid-sections-txt-clr,         --global-text-color);
+  --_grid-sections-flex-direction:  var(--grid-sections-flex-direction,  column);
+}
+.grid-sections {
+  color: var(--_txt-clr);
+  background: var(--_bg-clr);
+  display: flex;
+  flex-direction: var(--_grid-sections-flex-direction);
+  
+  &__image {
+    img { 
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+}
